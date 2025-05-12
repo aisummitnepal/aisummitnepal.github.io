@@ -1,103 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Summit Nepal 2025</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background: #f4f4f4;
-      color: #333;
-    }
-    header, footer {
-      background: #004d40;
-      color: white;
-      padding: 1em 0;
-      text-align: center;
-    }
-    nav {
-      background: #00796b;
-      padding: 1em;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-    }
-    section {
-      padding: 20px;
-      max-width: 1000px;
-      margin: auto;
-      background: white;
-      margin-top: 10px;
-      border-radius: 8px;
-    }
-    h1, h2 {
-      color: #004d40;
-    }
+    /* Reset & Base Styles */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; background-color: #f5f5f5; color: #333; }
+    a { color: #00695c; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Layout Containers */
+    header, footer { background-color: #004d40; color: #ffffff; text-align: center; padding: 1.5rem 0; }
+    nav { background-color: #00796b; padding: 1rem; display: flex; justify-content: center; gap: 2rem; }
+    nav a { color: #ffffff; font-weight: 500; }
+    .container { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
+    section { background: #ffffff; margin-bottom: 2rem; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+
+    /* Hero */
+    .hero { background-image: url('hero-bg.jpg'); background-size: cover; background-position: center; color: #ffffff; padding: 4rem 0; text-align: center; border-radius: 8px; margin-bottom: 2rem; }
+    .hero h1 { font-size: 3rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; }
+
+    /* Grid for Sponsorship Tiers */
+    .sponsor-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .sponsor-card { border: 1px solid #e0e0e0; border-radius: 8px; padding: 1.5rem; background-color: #fafafa; transition: transform 0.2s; }
+    .sponsor-card:hover { transform: translateY(-5px); }
+    .sponsor-card h3 { color: #004d40; margin-bottom: 0.5rem; }
+    .sponsor-card ul { list-style: disc inside; margin-top: 0.5rem; }
+
+    /* Footer */
+    footer p { font-size: 0.9rem; }
   </style>
 </head>
-
 <body>
   <header>
     <h1>AI Summit Nepal 2025</h1>
     <p>14–15 Ashad 2082 | Illam, Koshi Province, Nepal</p>
   </header>
-
   <nav>
     <a href="#about">About</a>
-    <a href="#why-ai">Why AI?</a>
-    <a href="#event">Event Details</a>
     <a href="#agenda">Agenda</a>
+    <a href="#sponsorship">Sponsorship</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <section id="about">
-    <h2>About the Summit</h2>
-    <p>AI Summit Nepal 2025 is a hybrid conference + unconference designed to unite policymakers, industry leaders, academic researchers, startups, and AI enthusiasts. The event emphasizes co-created knowledge sharing, policy shaping, and youth innovation to build Nepal’s AI-powered future.</p>
-  </section>
+  <div class="container">
+    <section id="about">
+      <h2>About the Summit</h2>
+      <p>AI Summit Nepal 2025 is a hybrid conference + unconference uniting policymakers, industry leaders, researchers, startups, and AI enthusiasts. Join us to co-create Nepal’s AI-powered future through interactive sessions, workshops, and networking.</p>
+    </section>
 
-  <section id="why-ai">
-    <h2>Why AI Matters</h2>
-    <ul>
-      <li><strong>Global Impact:</strong> Drives innovation, efficiency, and inclusion across sectors.</li>
-      <li><strong>For Nepal:</strong> Bridges gaps in health, agriculture, and finance. Enables digital growth.</li>
-    </ul>
-  </section>
+    <section id="agenda">
+      <h2>Two-Day Agenda</h2>
+      <p><strong>Day 1:</strong> Exploration, Inspiration & Knowledge Sharing including keynotes, breakout sessions, mentor circles, and cultural exchange.</p>
+      <p><strong>Day 2:</strong> Creation, Demonstration & Future Building featuring youth ideation pitches, mega-panels, awards, and the Summit Declaration.</p>
+    </section>
 
-  <section id="event">
-    <h2>Event Highlights</h2>
-    <ul>
-      <li>Interactive keynotes in Agriculture, Health, and Fintech</li>
-      <li>Youth ideation and prototype competition</li>
-      <li>Breakout sessions with real-time co-creation</li>
-      <li>Networking lounges and expert meetups</li>
-      <li>Poster and paper presentations</li>
-    </ul>
-  </section>
+    <section id="sponsorship">
+      <h2>Sponsorship Opportunities</h2>
+      <div class="sponsor-grid">
+        <div class="sponsor-card">
+          <h3>Summit Patron &ndash; NPR 500,000</h3>
+          <ul>
+            <li>Title placement: “Presented by [Your Brand]” across all materials</li>
+            <li>7-min opening address & Patron’s Chair on stage</li>
+            <li>3×3 m branded pavilion & premium exhibit space</li>
+            <li>Full-page center spread + inside cover in Program Guide</li>
+            <li>10 all-access passes & private dinner with dignitaries</li>
+            <li>Pre-event strategy workshop & post-event analytics</li>
+            <li>Logo in all post-event publications and highlight video</li>
+          </ul>
+        </div>
+        <div class="sponsor-card">
+          <h3>Summit Track Developers &ndash; NPR 300,000</h3>
+          <ul>
+            <li>“AI in [Theme] – Powered by [Your Brand]” naming rights</li>
+            <li>3-min intro before track keynotes & co-branded slides</li>
+            <li>2×3 m booth in thematic breakout zone</li>
+            <li>Half-page advert + editorial spotlight in Program Guide</li>
+            <li>8 all-access passes & private Track Developers roundtable</li>
+            <li>Contribute thought-leadership article to whitepaper</li>
+          </ul>
+        </div>
+        <div class="sponsor-card">
+          <h3>Summit Farmers &ndash; NPR 150,000</h3>
+          <ul>
+            <li>Logo on sectors slides & Summit Farmers wall</li>
+            <li>Interactive demo kiosk or guided demo table</li>
+            <li>Social media shout-out & interview feature</li>
+            <li>5 all-access passes & Farmers networking break</li>
+            <li>Custom hands-on workshop activation</li>
+          </ul>
+        </div>
+        <div class="sponsor-card">
+          <h3>Tech Farming Sponsors &ndash; NPR 75,000</h3>
+          <ul>
+            <li>Gold Sponsor logo on collateral & app splash</li>
+            <li>3×2 m table in Tech Showcase Alley</li>
+            <li>1-min promo loop during coffee breaks</li>
+            <li>Logo on signage + one sponsored email</li>
+            <li>4 all-access passes with lounge access</li>
+          </ul>
+        </div>
+        <div class="sponsor-card">
+          <h3>Silver Sponsors &ndash; NPR 60,000</h3>
+          <ul>
+            <li>Logo on Partner Board, website footer, kits</li>
+            <li>Sponsor a networking break or charging station</li>
+            <li>Quarter-page advert in Program Guide</li>
+            <li>Logo on stationery & 3 all-access passes</li>
+          </ul>
+        </div>
+        <div class="sponsor-card">
+          <h3>AI Schooling Partners &ndash; NPR 50,000</h3>
+          <ul>
+            <li>Logo in student zones & workshop backdrops</li>
+            <li>“Sponsored by” badge on student IDs</li>
+            <li>Featured in AI Schooling Partners web section</li>
+            <li>2 all-access passes</li>
+          </ul>
+        </div>
+        <div class="sponsor-card">
+          <h3>Prize Sponsors &ndash; NPR 50,000</h3>
+          <ul>
+            <li>On-stage recognition for award presentations</li>
+            <li>Logo on trophies, certificates, backdrops</li>
+            <li>Feature in closing video & press release</li>
+          </ul>
+        </div>
+        <div class="sponsor-card">
+          <h3>General Sponsors &ndash; NPR 35,000</h3>
+          <ul>
+            <li>Logo on website, partner wall, closing slide</li>
+            <li>Verbal thank-you during closing ceremony</li>
+            <li>2 all-access passes</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-  <section id="agenda">
-    <h2>Two-Day Agenda</h2>
-    <p><strong>Day 1:</strong> Opening ceremony, keynote sessions, breakout discussions, mentor circles, cultural evening.</p>
-    <p><strong>Day 2:</strong> Ideation pitch, expert panel, awards, and summit declaration.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact & Registration</h2>
-    <p><strong>Organizer:</strong> Numa Digital Farm</p>
-    <p>Email: contact@numadigitalfarm.org</p>
-    <p>Follow us on social media for updates.</p>
-  </section>
+    <section id="contact">
+      <h2>Contact & Registration</h2>
+      <p><strong>Organizer:</strong> Numa Digital Farm</p>
+      <p>Email: <a href="mailto:contact@numadigitalfarm.org">contact@numadigitalfarm.org</a></p>
+      <p>Follow us on social media for updates.</p>
+    </section>
+  </div>
 
   <footer>
     <p>&copy; 2025 AI Summit Nepal. All rights reserved.</p>
   </footer>
 </body>
-
 </html>
